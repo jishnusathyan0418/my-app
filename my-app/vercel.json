@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/index.ts": {
+      "runtime": "node.js20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/chat",
+      "dest": "src/index.ts"
+    }
+  ]
+}
